@@ -1,0 +1,108 @@
+/* Navbar.css */
+
+.bg {
+    background-color: #2883FF;
+}
+
+.header_sec {
+    padding: 0px 50px;
+    background-color: #2883FF;
+}
+
+.navbar-brand {
+    line-height: 1;
+    padding-left: 0.5rem;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+}
+
+.navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.nav-link {
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+    /* background-color: red; */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+}
+
+.Listitem {
+    margin-left: 40px;
+}
+
+.bag {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width:1480px) {
+    .nav-link {
+        font-size: 25px;
+        margin: 0px 15px;
+    }
+}
+
+
+/* Responsive styles for mobile phones (up to 767px) */
+
+
+/* Responsive styles for mobile phones (up to 767px) */
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        text-align: center;
+        /* Center text in mobile view */
+        padding-left: 0;
+        justify-content: center;
+        /* Center children elements horizontally */
+    }
+    .logo {
+        width: 49px;
+        height: 49px;
+        margin-right: 10px;
+        /* Adjust margin as needed */
+    }
+    .navbar-brand span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center text vertically */
+        line-height: 1;
+    }
+    .nav-link {
+        margin: 0;
+    }
+    .bag {
+        display: none;
+        /* Hide the .bag element on mobile devices */
+    }
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        /* Ensure the navbar items take full width */
+    }
+}
+
+.logo {
+    margin-right: 10px;
+    /* Adjust margin as needed */
+}
+
+.navbar-brand span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+}
+
+
+/* Add your other styles as needed */

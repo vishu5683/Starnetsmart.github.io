@@ -1,0 +1,331 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 1920px;
+    margin: auto;
+    background-color: #F8F8F8;
+}
+
+.testimonial_wrap h5 {
+    color: rgb(30, 49, 100);
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.stars .star-icon {
+    font-size: 22px;
+}
+
+.user-name {
+    font-size: 17px;
+    font-weight: 500;
+    color: #84888d;
+}
+
+.card-text {
+    color: rgb(30, 49, 100);
+    font-weight: bold;
+    font-size: 17px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.ftco-footer-widget ul li {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.ftco-footer-widget h4 {
+    margin-bottom: 20px;
+}
+
+@media (max-width:1480px) {
+    .banner_wrap h1.carousel-title {
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .banner_wrap p.carousel-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .small_circle_box .circle_shap {
+        width: 50px!important;
+        height: 50px!important;
+    }
+    .wallpaper_section_content .main_heading {
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .sofa_section_wrap .sofa_bx {
+        height: auto!important;
+        width: 97px!important;
+        padding: 5px 10px 5px 10px!important;
+    }
+    .sofa_section_wrap .sofa_bx img {
+        width: 50px;
+    }
+    .testimonial_wrap h5,
+    .tv-section h1 {
+        font-size: 42px!important;
+    }
+    .testimonial_wrap .circle img {
+        width: 135px;
+    }
+    .tv-section h1 {
+        font-size: 42px!important;
+    }
+    .leftcontent h2 {
+        font-size: 26px!important;
+    }
+    .ftco-footer-widget ul li {
+        font-size: 17px;
+    }
+    .wallpaper_section_content .main_heading {
+        font-size: 28px!important;
+    }
+}
+
+@media (max-width:1380px) {
+    .nav-link {
+        font-size: 22px!important;
+    }
+    .leftcontent h2 {
+        font-size: 23px!important;
+    }
+    .nav-link {
+        font-size: 22px;
+        margin: 0px 15px;
+    }
+    .banner_wrap h1.carousel-title {
+        font-size: 28px;
+    }
+    .banner_wrap p.carousel-text {
+        font-size: 16px;
+    }
+    .small_circle_box .circle_shap {
+        width: 45px!important;
+        height: 45px!important;
+    }
+    .card-text {
+        max-width: 100%;
+    }
+    .testimonial_wrap .circle {
+        padding: 40px 20px;
+    }
+    .testimonial_wrap .circle img {
+        width: 125px;
+    }
+    .user-name,
+    .card-text {
+        font-size: 16px;
+    }
+    .testimonial_wrap h5,
+    .tv-section h1 {
+        font-size: 36px!important;
+    }
+    .tv-section h1 {
+        font-size: 36px!important;
+    }
+    .ftco-gallery h2 {
+        font-size: 26px;
+    }
+    .ftco-gallery .ftco-animate p {
+        font-size: 16px;
+    }
+    .ftco-gallery .form-control {
+        height: 60px!important;
+        font-size: 22px!important;
+        padding: 0px 100px 0px 30px!important;
+        line-height: 60px!important;
+    }
+    .email-input-container img {
+        width: 40px!important;
+        right: 40px!important;
+    }
+    .ftco-footer-widget h4 {
+        margin-bottom: 15px;
+    }
+    .ftco-footer-widget ul li {
+        font-size: 16px;
+    }
+    .wallpaper_section_content .main_heading {
+        font-size: 25px!important;
+    }
+    .sofa_section_wrap .sofa_bx {
+        height: auto!important;
+        width: 87px!important;
+        padding: 5px 10px 5px 10px!important;
+    }
+}
+
+@media (max-width:767px) {
+    .nav-link {
+        font-size: 16px!important;
+    }
+    .header_sec {
+        padding: 0px 15px!important;
+    }
+    .logo {
+        width: 40px!important;
+        height: 40px!important;
+    }
+    .navbar-toggler-icon {
+        background: #fff!important;
+        color: #000;
+    }
+    .navbar-brand span {
+        font-size: 18px;
+    }
+    .header_sec .navbar {
+        justify-content: center;
+        position: relative;
+    }
+    .header_sec .navbar-toggler {
+        position: absolute;
+        left: 0px;
+        top: 10px;
+    }
+    .navbar-brand {
+        text-align: auto;
+    }
+    .banner_wrap h1.carousel-title {
+        font-size: 22px!important;
+    }
+    .banner_wrap p.carousel-text {
+        font-size: 14px!important;
+        font-weight: 400!important;
+    }
+    .small_circle_box .circle_shap {
+        width: 30px!important;
+        height: 30px!important;
+    }
+    .banner_wrap .carousel-caption {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    .try_button button {
+        padding: 5px 20px!important;
+        font-size: 14px;
+    }
+    .banner_wrap {
+        height: calc(100vh - 77px)!important;
+    }
+    .sternet-section {
+        height: auto!important;
+    }
+    .light-images,
+    .sternet-text {
+        position: relative!important;
+        top: auto!important;
+        left: auto!important;
+        transform: translate(0%, 0%)!important;
+    }
+    .direction_fl {
+        flex-direction: column-reverse!important;
+    }
+    .sternet-card {
+        margin: 30px 0px;
+    }
+    .light-box {
+        width: auto!important;
+    }
+    .sternet-text h3 {
+        font-size: 22px;
+    }
+    .sternet-text p {
+        font-size: 16px;
+    }
+    .wallpaper_section_content .main_heading {
+        font-size: 20px!important;
+    }
+    .wallpaper_section_content {
+        padding: 40px 0px 0px 20px!important;
+    }
+    .sofa_section_wrap {
+        width: 100%!important;
+        justify-content: flex-start!important;
+        padding-right: 0px!important;
+        flex-wrap: wrap!important;
+        padding-left: 20px!important;
+        margin-top: 40px!important;
+    }
+    .sofa_section_wrap .sofa_bx {
+        height: auto!important;
+        width: 67px!important;
+        padding: 5px 10px 5px 10px!important;
+        margin-bottom: 10px!important;
+    }
+    .testimonial_wrap {
+        padding: 20px 20px!important;
+    }
+    .testimonial_wrap h5 {
+        margin-bottom: 90px;
+    }
+    .testimonial_wrap h5,
+    .tv-section h1 {
+        font-size: 24px!important;
+    }
+    .testimonial_wrap .circle img {
+        width: 100px;
+    }
+    .testimonial_wrap .circle img {
+        margin-top: -120px;
+    }
+    .stars .star-icon {
+        font-size: 18px;
+    }
+    .user-name,
+    .card-text {
+        font-size: 15px;
+    }
+    .margbt {
+        margin-bottom: 70px;
+    }
+    .ftco-gallery h2 {
+        font-size: 22px;
+        padding-top: 20px!important;
+        padding-bottom: 10px!important;
+    }
+    .ftco-gallery .ftco-animate p {
+        font-size: 15px!important;
+    }
+    .ftco-gallery .form-control {
+        height: 50px!important;
+        font-size: 18px!important;
+        padding: 0px 60px 0px 20px!important;
+        line-height: 50px!important;
+    }
+    .email-input-container img {
+        width: 25px!important;
+        right: 20px!important;
+    }
+    .ftco-section {
+        padding: 20px!important;
+    }
+    .ftco-footer-widget h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    .ftco-footer-widget ul li {
+        font-size: 14px;
+    }
+    .ftco-footer-widget {
+        margin: 0px -15px;
+    }
+    .goods_wrap {
+        padding: 20px!important;
+    }
+    .leftcontent {
+        padding: 15px!important;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        display: none
+    }
+    .sec_wrap {
+        border-radius: 0px!important;
+    }
+}

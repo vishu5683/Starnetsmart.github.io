@@ -1,0 +1,245 @@
+.sternet-light-section {
+    margin: 0 auto;
+    max-width: 1920px;
+    background: #F8F8F8;
+    padding: 20px;
+}
+
+.sternet-section {
+    height: 560px;
+}
+
+.sternet-card {
+    position: revert;
+    height: auto;
+}
+
+.sternet-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.sternet-text h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #1E3164;
+}
+
+.sternet-text p {
+    font-weight: 400;
+    font-size: 26px;
+    color: #1E3164;
+    margin-top: 20px;
+}
+
+.sternet-text button {
+    /* border: 0;
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    background: #2883FF;
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    margin-top: 20px; */
+    background: #2883FF;
+    padding: 10px 40px;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.light-box {
+    width: 550px;
+}
+
+.light-box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 47px;
+}
+
+.light-card {
+    position: revert;
+    height: auto;
+}
+
+.light-images {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.color-light {
+    width: 100px;
+    position: absolute;
+    left: 270px;
+    bottom: -45px;
+}
+
+.color-light img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.wifi-light {
+    width: 130px;
+    position: absolute;
+    left: 110px;
+    bottom: -70px;
+}
+
+.wifi-light img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.led-light {
+    width: 130px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+
+.led-light img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media only screen and (max-width: 1800px) {
+    .sternet-section {
+        height: 530px;
+    }
+    .light-box {
+        width: 500px;
+    }
+    .sternet-text h3 {
+        font-size: 36px;
+    }
+    .sternet-text p {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    /* .sternet-text button {
+        font-size: 22px;
+        height: 55px;
+        width: 210px;
+        margin-top: 15px;
+    } */
+    .color-light {
+        width: 80px;
+        left: 250px;
+        bottom: -40px;
+    }
+    .wifi-light {
+        width: 110px;
+        left: 110px;
+        bottom: -60px;
+    }
+    .led-light {
+        width: 110px;
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .sternet-section {
+        height: 470px;
+    }
+    .light-box {
+        width: 450px;
+    }
+    .sternet-text h3 {
+        font-size: 32px;
+    }
+    .sternet-text p {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    /* .sternet-text button {
+        font-size: 20px;
+        height: 50px;
+        width: 190px;
+        margin-top: 10px;
+    } */
+    .color-light {
+        width: 70px;
+        left: 220px;
+        bottom: -35px;
+    }
+    .wifi-light {
+        width: 90px;
+        left: 100px;
+        bottom: -50px;
+    }
+    .led-light {
+        width: 90px;
+        right: 20px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .sternet-section {
+        height: 415px;
+    }
+    .light-box {
+        width: 400px;
+    }
+    .sternet-text h3 {
+        font-size: 28px;
+    }
+    .sternet-text p {
+        font-size: 20px;
+    }
+    /* .sternet-text button {
+        font-size: 18px;
+        height: 45px;
+        width: 170px;
+    } */
+    .color-light {
+        left: 180px;
+    }
+    .wifi-light {
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1368px) {
+    .sternet-section {
+        height: 370px;
+    }
+    .light-box {
+        width: 350px;
+    }
+    .sternet-text h3 {
+        font-size: 26px;
+    }
+    .sternet-text p {
+        font-size: 18px;
+    }
+    /* .sternet-text button {
+        font-size: 16px;
+        height: 40px;
+        width: 150px;
+    } */
+    .color-light {
+        width: 60px;
+        left: 165px;
+        bottom: -30px;
+    }
+    .wifi-light {
+        width: 80px;
+        left: 65px;
+        bottom: -45px;
+    }
+    .led-light {
+        width: 80px;
+    }
+}

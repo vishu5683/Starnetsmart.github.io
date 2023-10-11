@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './Style.css'
+import Navbar from './Component/Navbar'
+import Hero from './Component/Hero'
+import Slider from './Component/Slider'
+import Testimonials from './Component/Testimonials'
+import Goodread from './Component/Goodread'
+import Homepage from './Homepage'
+import Section from './Component/Section'
+import Footer from './Component/Footer'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <>
+      <Navbar/>
+
+      <Hero/>
+
+      <Homepage/>
+
+      <Slider/>
+
+     
+
+            <div className="testimonial_wrap text-center">
+                <h5>Customer Testimonial</h5>
+              <div className='testimonial_box'></div>
+                <div className="row">
+                    <div class="col-md-4 col-12 margbt">
+                        <Testimonials/>
+                    </div>
+                    <div class="col-md-4 col-12 margbt">
+                        <Testimonials />
+                    </div>
+                    <div class="col-md-4 col-12 margbt">
+                        <Testimonials />
+                    </div>
+                </div>
+            </div>
+
+            <Goodread/>
+
+            <Section/>
+
+            <Footer/>
+      </>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
