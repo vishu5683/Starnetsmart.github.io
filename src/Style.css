@@ -41,7 +41,7 @@ body {
     margin-bottom: 20px;
 }
 
-@media (max-width:1480px) {
+/* @media (max-width:1480px) {
     .banner_wrap h1.carousel-title {
         font-size: 32px;
         font-weight: 700;
@@ -328,4 +328,4 @@ body {
     .sec_wrap {
         border-radius: 0px!important;
     }
-}
+} */

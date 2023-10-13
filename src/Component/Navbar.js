@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
         <div class="header_sec">
       <navbar class="navbar navbar-expand-lg  bg">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
     <span class="navbar-toggler-icon"></span>
   </button>
           

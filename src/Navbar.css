@@ -1,4 +1,4 @@
-/* Navbar.css */
+
 
 .bg {
     background-color: #2883FF;
@@ -17,7 +17,38 @@
     display: flex;
     align-items: center;
     font-family: Arial;
+
+
+    @media only screen and (max-width: 576px) {
+        
+            font-size: 24px;
+            padding-left: 0;
+            justify-content: center;
+       
+    }
+
+    @media only screen and (min-width: 576px) {
+        
+            font-size: 24px;
+            padding-left: 0.5rem;
+        
+    }
+
+    @media only screen and (min-width: 992px) {
+        
+            font-size: 28px;
+            padding-left: 1rem;
+       
+    }
+
+    @media only screen and (min-width: 1200px) {
+        
+            font-size: 32px;
+            padding-left: 1.5rem;
+       
+    }
 }
+
 
 .navbar-brand:hover {
     color: #FFFFFF;
@@ -27,7 +58,14 @@
     color: white;
     font-size: 30px;
     margin: 0 10px;
-    /* background-color: red; */
+
+    @media only screen and (max-width: 576px) {
+        
+            font-size: 24px;
+            margin: 0 8px;
+       
+    }
+    
 }
 
 .navbar-nav .nav-link:hover {
@@ -41,68 +79,77 @@
 .bag {
     display: flex;
     justify-content: flex-end;
+    visibility: hidden;
+
+
+    
+    
 }
 
-@media (max-width:1480px) {
-    .nav-link {
-        font-size: 25px;
-        margin: 0px 15px;
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .navbar-toggler-icon {
+        float: left; 
+        margin: 0px;
+        background-image: url(../src/images/Menu.png);
+        border-color: white;
+        
+    }
+}
+@media only screen and (min-width: 576px) {
+    .navbar-toggler-icon {
+        float: left; 
+        margin: 0px;
+        background-image: url(../src/images/Menu.png);
+        border-color: white;
+        
     }
 }
 
-
-/* Responsive styles for mobile phones (up to 767px) */
-
-
-/* Responsive styles for mobile phones (up to 767px) */
-
-@media (max-width: 767px) {
-    .navbar-brand {
-        text-align: center;
-        /* Center text in mobile view */
-        padding-left: 0;
-        justify-content: center;
-        /* Center children elements horizontally */
-    }
-    .logo {
-        width: 49px;
-        height: 49px;
-        margin-right: 10px;
-        /* Adjust margin as needed */
-    }
-    .navbar-brand span {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* Center text vertically */
-        line-height: 1;
-    }
-    .nav-link {
-        margin: 0;
-    }
-    .bag {
-        display: none;
-        /* Hide the .bag element on mobile devices */
-    }
-    .navbar-nav {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        /* Ensure the navbar items take full width */
+@media only screen and (min-width: 576px) {
+    .navbar-toggler-icon {
+        
+        background-image: url(../src/images/Menu.png);
+      
+        
     }
 }
 
 .logo {
-    margin-right: 10px;
-    /* Adjust margin as needed */
+    @media only screen and (max-width: 576px){
+        
+            width: 49px;
+            height: 49px;
+            margin: 5px 5px 5px 0px;
+           
+       
+    }
 }
 
-.navbar-brand span {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    line-height: 1;
+.header_sec {
+    @media only screen and (max-width: 576px){
+        padding: 0px 10px ;
+    background-color: #2883FF;
+}
+@media only screen and (min-width: 576px){
+    padding: 0px 10px;
+
+}
 }
 
+.logo{
+    margin-right :  10px  ;
+}
 
-/* Add your other styles as needed */
+.navbar-toggler collapsed{
+    border: none;
+    @media only screen and (max-width: 576px){
+        padding: 0px 10px;
+        
+    background-color: #2883FF;
+}
+
+}
