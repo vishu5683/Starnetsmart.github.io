@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/Starnetsmart.github.io/static/css/main.508730a2.css",
-    "main.js": "/Starnetsmart.github.io/static/js/main.9038f2a2.js",
+    "main.css": "/Starnetsmart.github.io/static/css/main.1fb8b934.css",
+    "main.js": "/Starnetsmart.github.io/static/js/main.7d40a964.js",
     "static/js/787.7a0ce4c5.chunk.js": "/Starnetsmart.github.io/static/js/787.7a0ce4c5.chunk.js",
     "static/media/wall.png": "/Starnetsmart.github.io/static/media/wall.faccc3f1b74fd6650154.png",
-    "static/media/Hero2.png": "/Starnetsmart.github.io/static/media/Hero2.0a5ba606b9a4b7968afb.png",
-    "static/media/Hero3.png": "/Starnetsmart.github.io/static/media/Hero3.308786e547191b4f7cd9.png",
     "static/media/Hero1.png": "/Starnetsmart.github.io/static/media/Hero1.ab33cb0fce6a76a7902b.png",
     "static/media/subs.png": "/Starnetsmart.github.io/static/media/subs.018b1c8bb963b16e354a.png",
     "static/media/light1.png": "/Starnetsmart.github.io/static/media/light1.3cd3ec44ed5745220371.png",
     "static/media/tv.png": "/Starnetsmart.github.io/static/media/tv.5eecbf91deb79962ee12.png",
+    "static/media/medphn.png": "/Starnetsmart.github.io/static/media/medphn.de54883a0b04a8f1ab28.png",
     "static/media/light2.png": "/Starnetsmart.github.io/static/media/light2.2996151988dc9ad847a2.png",
     "static/media/footer.png": "/Starnetsmart.github.io/static/media/footer.8e4580a8cf84bf2c01e9.png",
     "static/media/light3.png": "/Starnetsmart.github.io/static/media/light3.1eb7f0b68d58b97ee6b0.png",
@@ -17,12 +16,12 @@
     "static/media/user1.png": "/Starnetsmart.github.io/static/media/user1.249e517c8c25d8a9cd5b.png",
     "static/media/color-icon.png": "/Starnetsmart.github.io/static/media/color-icon.1f551ce6294af1213b50.png",
     "index.html": "/Starnetsmart.github.io/index.html",
-    "main.508730a2.css.map": "/Starnetsmart.github.io/static/css/main.508730a2.css.map",
-    "main.9038f2a2.js.map": "/Starnetsmart.github.io/static/js/main.9038f2a2.js.map",
+    "main.1fb8b934.css.map": "/Starnetsmart.github.io/static/css/main.1fb8b934.css.map",
+    "main.7d40a964.js.map": "/Starnetsmart.github.io/static/js/main.7d40a964.js.map",
     "787.7a0ce4c5.chunk.js.map": "/Starnetsmart.github.io/static/js/787.7a0ce4c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.508730a2.css",
-    "static/js/main.9038f2a2.js"
+    "static/css/main.1fb8b934.css",
+    "static/js/main.7d40a964.js"
   ]
 }
