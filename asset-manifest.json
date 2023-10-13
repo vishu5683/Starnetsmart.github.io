@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Starnetsmart.github.io/static/css/main.3d2126a7.css",
+    "main.css": "/Starnetsmart.github.io/static/css/main.3ce50820.css",
     "main.js": "/Starnetsmart.github.io/static/js/main.7d40a964.js",
     "static/js/787.7a0ce4c5.chunk.js": "/Starnetsmart.github.io/static/js/787.7a0ce4c5.chunk.js",
     "static/media/wall.png": "/Starnetsmart.github.io/static/media/wall.faccc3f1b74fd6650154.png",
@@ -16,12 +16,12 @@
     "static/media/user1.png": "/Starnetsmart.github.io/static/media/user1.249e517c8c25d8a9cd5b.png",
     "static/media/color-icon.png": "/Starnetsmart.github.io/static/media/color-icon.1f551ce6294af1213b50.png",
     "index.html": "/Starnetsmart.github.io/index.html",
-    "main.3d2126a7.css.map": "/Starnetsmart.github.io/static/css/main.3d2126a7.css.map",
+    "main.3ce50820.css.map": "/Starnetsmart.github.io/static/css/main.3ce50820.css.map",
     "main.7d40a964.js.map": "/Starnetsmart.github.io/static/js/main.7d40a964.js.map",
     "787.7a0ce4c5.chunk.js.map": "/Starnetsmart.github.io/static/js/787.7a0ce4c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d2126a7.css",
+    "static/css/main.3ce50820.css",
     "static/js/main.7d40a964.js"
   ]
 }
