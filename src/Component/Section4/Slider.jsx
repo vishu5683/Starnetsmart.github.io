@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Slider.css';
-import sofa from "../images/sofa.png";
+import './Slider.css';
+import sofa from "./assets/sofa.png";
 
 
 const Slider = () => {

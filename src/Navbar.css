@@ -9,6 +9,15 @@
     background-color: #2883FF;
 }
 
+/* .navbar-collapse.collapse.show{
+    position: absolute;
+    inset: 69px 0px 0px 0px;
+    z-index: 9;
+    background: rgb(40, 131, 255);
+    text-align: center;
+    width: 100%;
+} */
+
 .navbar-brand {
     line-height: 1;
     padding-left: 0.5rem;
@@ -152,4 +161,13 @@
     background-color: #2883FF;
 }
 
+}
+
+ .navbar-toggler {
+    @media only screen and (max-width: 576px) {
+    /* position: absolute; */
+    text-align: center;
+    left: 0px;
+    top: 10px;
+}
 }

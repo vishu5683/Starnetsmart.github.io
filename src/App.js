@@ -1,14 +1,15 @@
+
 import React from 'react'
 import './Style.css'
-import Navbar from './Component/Navbar'
-import Hero from './Component/Hero'
-import Slider from './Component/Slider'
-import Testimonials from './Component/Testimonials'
-import Goodread from './Component/Goodread'
-import Homepage from './Homepage'
-import Section from './Component/Section'
-import Footer from './Component/Footer'
+import Navbar from './Component/Header'
+import Hero from './Component/Section2/Hero'
+import Slider from './Component/Section4/Slider'
+import Testimonials from './Component/Section5-reviews/Testimonials'
+import Goodread from './Component/Section6/Goodread'
 
+import Section from './Component/Section7-email/Section'
+import Footer from './Component/Section8-Footer/Footer'
+import Home from './Component/Section3/Home'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
 
       <Hero/>
 
-      <Homepage/>
+      <Home/>
+      
 
       <Slider/>
 

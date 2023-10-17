@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+
+import "@popperjs/core/dist/umd/popper.min";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min";
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './Style.css'

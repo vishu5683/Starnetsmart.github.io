@@ -1,5 +1,5 @@
 .banner_wrap {
-    background-image: url(../src/images/Hero1.png);
+    background-image: url(./assets/hero1.png);
     background-size: 100% 100%;
     width: 100%;
     height: calc(100vh - 177px);
@@ -8,14 +8,16 @@
 
 
     @media only screen and (max-width: 576px) {
-        background-image: url(../src/images/medphn.png);
+        background-image: url(./assets/medphn.png);
+        background-size: 100% 100%;
         text-align: left;
         position: relative;
         left: auto;
-        /* right: auto; */
-        /* top: auto; */
-        /* bottom: auto; */
+        right: auto; 
+        top: auto;
+        bottom: auto; 
         /* padding-left: 138px; */
+        height: 100vh;
     }
 
 }
@@ -34,8 +36,9 @@
             padding-left: 20px!important;
             padding-right: 20px!important;
            
-            margin-top: 250px;
+            margin-top: 200px;
         margin-bottom: auto;
+        /* bottom: 0; */
     }
     @media only screen and (min-width: 576px) {
         /* padding-left: 20px!important;

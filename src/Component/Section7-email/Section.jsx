@@ -1,6 +1,6 @@
 import React from 'react'
-import '../Section.css'
-import Arrow1 from '../images/arrow.png'
+import './Section.css'
+import Arrow1 from './assets/arrow.png'
 const Section = () => {
   return (
    <>

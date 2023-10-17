@@ -1,5 +1,5 @@
 import React from "react";
-import "../Hero.css";
+import "./Hero.css";
 // import Hero1 from "../images/Hero1.png";
 // import Hero2 from "../images/Hero2.png";
 // import Hero3 from "../images/Hero3.png";

@@ -1,6 +1,6 @@
 import React from 'react'
-import user1 from '../images/user1.png';
-import "../Testimonial.css";
+import user1 from './assets/user1.png';
+import "./Testimonials.css";
 
 const Testimonials = () => {
     const paragraphStyle = {

@@ -1,6 +1,6 @@
 import React from "react";
-import "../Goodread.css";
-import TV from "../images/tv.png";
+import "./Goodreads.css";
+import TV from "./assets/tv.png";
 
 const Goodread = () => {
   return (
